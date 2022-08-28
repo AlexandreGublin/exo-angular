@@ -1,0 +1,8 @@
+<h1>Tableau de bord</h1>
+<button (click)="logout()">Se déconnecter</button>
+
+<br><br>
+<app-counter [counter]="counter"></app-counter>
+<br>
+<app-decrease (parentDecrease)="decrease()"></app-decrease>
+<app-increase (parentIncrease)="increase()"></app-increase>
